@@ -22,7 +22,6 @@ _Alle vormen van ondersteuning die geboden worden door nationale of gemeentelijk
 
 ![Het begrip Voorziening met relaties](https://user-images.githubusercontent.com/38116193/205665168-b7a7b855-ffb1-4a70-8733-756dadade4e4.png)
 
-
 ## Conceptueel gegevensmodel Voorzieningen
 
 De objecttypen en hun samenhang bij Voorzieningen. Een voorziening doorloopt een levenscyclus langs de weg: behoefte, ontwikkeling, aanbieding/promotie, aanvraag, gebruik, bijstelling en afbouw.<br />
@@ -101,4 +100,5 @@ Onderhoudsscherm voor Voorziening (facility) met codegenerator Scriptcase) voor 
 
 ## Zoek app als demo
 
-![Zoekscherm Voorziening](https://user-images.githubusercontent.com/38116193/205685750-53faf265-516d-4a5f-88bf-0ffa3134d8d6.png)
+![Zoekscherm Voorziening](https://user-images.githubusercontent.com/38116193/205693081-f218c65a-019f-4f23-a6fe-accf298ba298.png)
+
