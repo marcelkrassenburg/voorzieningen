@@ -32,7 +32,7 @@ De gegevens over de rechten op een voorziening worden in de entiteit 'Voorzienin
 
 ![Conceptueel gegevensmodel](https://user-images.githubusercontent.com/38116193/205661461-3b1526b0-03cb-43c5-b890-3998b8e3d552.png)
 
-## Logisch gegevensmodel Voorzieningen (entiteiten en attributen)
+## Logisch gegevensmodel Voorzieningen
 
 ### Entiteiten uit het schema 'Samenwerken' 
 
@@ -43,9 +43,8 @@ De gegevens over de rechten op een voorziening worden in de entiteit 'Voorzienin
 ![Logisch gegevensmodel](https://user-images.githubusercontent.com/38116193/205658305-f3e5aef4-a323-47a4-9885-b71fec4dfb3e.png)
 
 
-## Technisch gegevensmodel Voorzieningen voor gebruik met relationele database in MySQL
-
-Voorbeeld van een gegenereerd script om een tabel te maken in MySQL. <br />
+## Technisch gegevensmodel Voorzieningen 
+Voorbeeld van een gegenereerd script om een tabel te maken voor gebruik in relationele database MySQL. <br />
 Naamgevingconventies: Engelstalig, snake_case, entiteit prefix in attribuutnaam.
 
 <pre>
@@ -78,9 +77,9 @@ CREATE TABLE facility  (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8; 
 </pre>
 
-## CRUD-onderhoudsfuncties in PHP (met codegenerator Scriptcase) voor invoer proefgegevens
+## CRUD-onderhoudsfuncties in PHP
 
-Onderhoudsscherm voor Voorziening (facility)
+Onderhoudsscherm voor Voorziening (facility) met codegenerator Scriptcase) voor invoer proefgegevens.
 
 ![Onderhoudsscherm voorziening](https://user-images.githubusercontent.com/38116193/205668389-71b40245-fa14-4168-b403-ae1f086d8268.png)
 
