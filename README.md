@@ -1,4 +1,4 @@
-# voorzieningen
+# Voorzieningen
 Openbare voorzieningen registratie
 ## Inleiding
 
