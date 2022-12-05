@@ -8,15 +8,20 @@ In de Harmonisator is een schema toegevoegd en opgebouwd met de naam 'Openbare V
 
 ## Definitielijst als begrippenkader Voorzieningen
 
-Uit het schema zijn losse definities op te halen. Bijvoorbeeld:
+### Definitie Voorziening
 
-**Definitie Voorziening:**
+Uit het schema zijn losse definities op te halen. Bijvoorbeeld:
 
 _Alle vormen van ondersteuning die geboden worden door nationale of gemeentelijke overheden, maatschappelijke en charitatieve instellingen._
 
-Of een lijst van definities binnen het schema:
+### Lijst van definities binnen het schema
 
 ![Lijst van definities](https://user-images.githubusercontent.com/38116193/205656955-ec5e073b-781d-4c18-8b82-1e806c22a1dd.png)
+
+### Voorbeeld 'Voorziening' als begrip
+
+![Het begrip Voorziening met relaties](https://user-images.githubusercontent.com/38116193/205665168-b7a7b855-ffb1-4a70-8733-756dadade4e4.png)
+
 
 ## Conceptueel gegevensmodel Voorzieningen
 
@@ -30,15 +35,21 @@ De gegevens over de rechten op een voorziening worden in de entiteit 'Voorzienin
 
 ## Logisch gegevensmodel Voorzieningen (entiteiten en attributen)
 
-Entiteiten en attributen met datatypen.
+### Entiteiten uit het schema 'Samenwerken' 
+
+![Entiteiten](https://user-images.githubusercontent.com/38116193/205666362-0a61b557-38e4-4cf6-ad96-ca2e91a1b98b.png)
+
+### Entiteiten en attributen met datatypen
 
 ![Logisch gegevensmodel](https://user-images.githubusercontent.com/38116193/205658305-f3e5aef4-a323-47a4-9885-b71fec4dfb3e.png)
 
 
 ## Technisch gegevensmodel Voorzieningen voor gebruik met relationele database in MySQL
 
-Voorbeeld van een script om een tabel te maken in MySQL. 
+Voorbeeld van een gegenereerd script om een tabel te maken in MySQL. <br />
+Naamgevingconventies: Engelstalig, snake_case, entiteit prefix in attribuutnaam.
 
+<pre>
 --
 -- Tabel Voorzieningen: `facility`
 --
@@ -66,8 +77,11 @@ CREATE TABLE facility  (
 	fac_input_code varchar(100) 
 	
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8; 
+</pre>
 
 ## CRUD-onderhoudsfuncties in PHP (met codegenerator Scriptcase) voor invoer proefgegevens
+
+
 
 ## JSON schema van voorzieningen
 ![JSON-schema Voorzieningen](https://user-images.githubusercontent.com/38116193/205662637-36268a82-cd85-432a-a845-de2e21bed2bc.png)
