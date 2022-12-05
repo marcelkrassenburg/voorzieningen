@@ -14,7 +14,7 @@ Er zijn twee voorbeelden van spreadsheets met overzicht op de voorzieningen. Dez
 
 - Begrippen vastleggen in de Harmonisator (term + definitie)
 - De bedrijfsobjecten benoemen en attributen toevoegen als relaties naar termen 
-- Een gegevensmodel gegeneren uit Harmonisator-model
+- Een gegevensmodel genereren uit Harmonisator-model
 - Een API genereren uit Harmonisator-model
 - Een proefdatabase opzetten en vullen
 - Een zoekfunctie bieden die de API gebruikt
