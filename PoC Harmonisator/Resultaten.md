@@ -92,6 +92,9 @@ Onderhoudsscherm voor Voorziening (facility)
 
 ## API van voorzieningen
 
+![API Voorziening](https://user-images.githubusercontent.com/38116193/205690100-e3b4f503-e542-416a-90ff-a9f206416102.png)
+
+
 ## Set proefgegevens uit spreadsheets Vught
 
 ![Spreadsheet Voorzieningen Vught](https://user-images.githubusercontent.com/38116193/205686905-267871d1-85cf-402d-bc31-dd65d3084047.png)
