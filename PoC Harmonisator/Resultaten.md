@@ -32,7 +32,6 @@ De gegevens over de rechten op een voorziening worden in de entiteit 'Voorzienin
 
 ![Conceptueel gegevensmodel](https://user-images.githubusercontent.com/38116193/205661461-3b1526b0-03cb-43c5-b890-3998b8e3d552.png)
 
-
 ## Logisch gegevensmodel Voorzieningen (entiteiten en attributen)
 
 ### Entiteiten uit het schema 'Samenwerken' 
@@ -81,9 +80,13 @@ CREATE TABLE facility  (
 
 ## CRUD-onderhoudsfuncties in PHP (met codegenerator Scriptcase) voor invoer proefgegevens
 
+Onderhoudsscherm voor Voorziening (facility)
+
+![Onderhoudsscherm voorziening](https://user-images.githubusercontent.com/38116193/205668389-71b40245-fa14-4168-b403-ae1f086d8268.png)
 
 
 ## JSON schema van voorzieningen
+
 ![JSON-schema Voorzieningen](https://user-images.githubusercontent.com/38116193/205662637-36268a82-cd85-432a-a845-de2e21bed2bc.png)
 
 
@@ -91,4 +94,9 @@ CREATE TABLE facility  (
 
 ## Set proefgegevens uit spreadsheets Vught
 
+![Spreadsheet Voorzieningen Vught](https://user-images.githubusercontent.com/38116193/205686905-267871d1-85cf-402d-bc31-dd65d3084047.png)
+
+
 ## Zoek app als demo
+
+![Zoekscherm Voorziening](https://user-images.githubusercontent.com/38116193/205685750-53faf265-516d-4a5f-88bf-0ffa3134d8d6.png)
