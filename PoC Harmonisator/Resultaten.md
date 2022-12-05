@@ -2,7 +2,7 @@
 
 ## Schema "Voorzieningen" middels het Harmonisator-concept
 
-In de Harmonisator is een schema toegevoegd en opgebouwd met de naam 'Voorzieningen'. In de PoC gevuld met 43 termen, waarvan een deel een definitie heeft gekregen. 
+In de Harmonisator is een schema toegevoegd en opgebouwd met de naam 'Openbare Voorzieningen Registratie'. In de PoC gevuld met 43 termen, waarvan een deel een definitie heeft gekregen. 
 
 ![Schema Voorzieningen](https://user-images.githubusercontent.com/38116193/205655519-42198c6a-9a8f-441a-8ee0-5ce9fcd9df12.png)
 
@@ -20,15 +20,58 @@ Of een lijst van definities binnen het schema:
 
 ## Conceptueel gegevensmodel Voorzieningen
 
+De objecttypen en hun samenhang bij Voorzieningen. Een voorziening doorloopt een levenscyclus langs de weg: behoefte, ontwikkeling, aanbieding/promotie, aanvraag, gebruik, bijstelling en afbouw.<br />
+Gegevens van organisaties en personen (actoren) kunnen uit het generieke gegevensmodel 'Samenwerken' (coöperatie, afkorting 'co') worden gehaald.<br />
+De categorisering en clustering van voorzieningen kan volgens standaard thema-indelingen, b.v. van data.overheid.nl worden toegepast.<br />
+De gegevens over de rechten op een voorziening worden in de entiteit 'Voorziening-Regel' opgenomen.
+
+![Conceptueel gegevensmodel](https://user-images.githubusercontent.com/38116193/205661461-3b1526b0-03cb-43c5-b890-3998b8e3d552.png)
 
 
 ## Logisch gegevensmodel Voorzieningen (entiteiten en attributen)
 
+Entiteiten en attributen met datatypen.
+
+![Logisch gegevensmodel](https://user-images.githubusercontent.com/38116193/205658305-f3e5aef4-a323-47a4-9885-b71fec4dfb3e.png)
+
+
 ## Technisch gegevensmodel Voorzieningen voor gebruik met relationele database in MySQL
+
+Voorbeeld van een script om een tabel te maken in MySQL. 
+
+--
+-- Tabel Voorzieningen: `facility`
+--
+DROP TABLE IF EXISTS facility; 
+ 
+CREATE TABLE facility  ( 
+	fac_uid int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT 'versie 0.1.15',
+	fac_lang_code varchar(5),
+	fac_name varchar(255),
+	fac_label varchar(255),
+	fac_definition varchar(255),
+	fac_description varchar(500),
+	fac_comment text,
+	fac_details text,
+	fac_target_group_code varchar(255),
+	fac_the_uid int(11),
+	fac_cluster_uid int(11),
+	fac_g_provider_uid int(11),
+	fac_g_intermediair_uid int(11),
+	fac_p_contact_uid int(11),
+	fac_facr_uid int(11),
+	fac_110 char(1),
+	fac_120 char(1),
+	fac_150 char(1),	
+	fac_input_code varchar(100) 
+	
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; 
 
 ## CRUD-onderhoudsfuncties in PHP (met codegenerator Scriptcase) voor invoer proefgegevens
 
 ## JSON schema van voorzieningen
+![JSON-schema Voorzieningen](https://user-images.githubusercontent.com/38116193/205662637-36268a82-cd85-432a-a845-de2e21bed2bc.png)
+
 
 ## API van voorzieningen
 
