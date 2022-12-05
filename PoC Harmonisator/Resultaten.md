@@ -27,7 +27,7 @@ _Alle vormen van ondersteuning die geboden worden door nationale of gemeentelijk
 De objecttypen en hun samenhang bij Voorzieningen. Een voorziening doorloopt een levenscyclus langs de weg: behoefte, ontwikkeling, aanbieding/promotie, aanvraag, gebruik, bijstelling en afbouw.<br />
 Gegevens van organisaties en personen (actoren) kunnen uit het generieke gegevensmodel 'Samenwerken' (coöperatie, afkorting 'co') worden gehaald.<br />
 De categorisering en clustering van voorzieningen kan volgens standaard thema-indelingen, b.v. van data.overheid.nl worden toegepast.<br />
-De gegevens over de rechten op een voorziening worden in de entiteit 'Voorziening-Regel' opgenomen.
+De gegevens over de rechten op een voorziening worden in de entiteit 'Voorziening-Regelset' opgenomen.
 
 ![Conceptueel gegevensmodel](https://user-images.githubusercontent.com/38116193/205755700-32737e16-adcb-4bc4-842b-17e51fd641da.png)
 
