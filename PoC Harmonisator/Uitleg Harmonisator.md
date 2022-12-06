@@ -4,7 +4,7 @@ In de zomer van 2022 is het concept van de "Harmonisator" ontwikkeld, dat is geb
 
 # Conceptueel gegevensmodel
 
-![afbeelding](https://user-images.githubusercontent.com/38116193/205630323-debf0250-ca85-4650-a932-5a4b9adb0867.png)
+![afbeelding](https://user-images.githubusercontent.com/38116193/205630323-debf0250-ca85-4650-a932-5a4b9adb0867.png  | width=600)
 
 ## Samenhang Voorzieningen en Harmonisator 
 
