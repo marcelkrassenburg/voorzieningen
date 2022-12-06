@@ -29,8 +29,7 @@ Gegevens van organisaties en personen (actoren) kunnen uit het generieke gegeven
 De categorisering en clustering van voorzieningen kan volgens standaard thema-indelingen, b.v. van data.overheid.nl worden toegepast.<br />
 De gegevens over de rechten op een voorziening worden in de entiteit 'Voorziening-Regelset' opgenomen.
 
-![Conceptueel gegevensmodel](https://user-images.githubusercontent.com/38116193/205755700-32737e16-adcb-4bc4-842b-17e51fd641da.png)
-
+![Conceptueel gegevensmodel](https://user-images.githubusercontent.com/38116193/205858919-c20968c2-da39-434c-aed2-f009ce65f566.png)
 
 ## Logisch gegevensmodel Voorzieningen
 
