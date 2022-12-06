@@ -25,7 +25,7 @@ De Harmonisator heeft in de kern drie hoofdentiteiten:
 
 Er zijn 40 standaard attributen van een Term:
 
-<img src="https://user-images.githubusercontent.com/25812095/188639144-85fec5d5-ba5c-4902-a039-ccb015377b7f.png" width=600>
+![TermAttributen](https://user-images.githubusercontent.com/38116193/205875248-27bce908-4be2-458a-b824-b8ded65b44aa.png)
 
 ### Producten uit de Harmonisator
 
