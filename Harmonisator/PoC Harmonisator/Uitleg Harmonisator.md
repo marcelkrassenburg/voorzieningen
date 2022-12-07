@@ -39,7 +39,7 @@ Als de termen uit een bepaald domein zijn opgenomen in een schema, voorzien van 
 - [ ] JSON schema van voorzieningen 
 - [ ] API van voorzieningen
 
-Met deze producten kan een informatiesysteem worden gebouwd, in de technische omgeving van keuze. Voor de PoC van Voorzieningen is dit uitgevoerd in een relationele database MySQL. Deze is met een Restfull API ontsloten en CRUD-functies zijn gemaakt met een specifiek low-code ontwikkelplartform:
+Met deze producten kan een informatiesysteem worden gebouwd, in de technische omgeving van keuze. Voor de PoC van Voorzieningen is dit uitgevoerd in een relationele database MySQL. Deze is met een Restful API ontsloten en CRUD-functies zijn gemaakt met een specifiek low-code ontwikkelplatform:
 
 - [ ] CRUD-onderhoudsfuncties in PHP (met codegenerator Scriptcase) voor invoer proefgegevens
 - [ ] Set proefgegevens uit spreadsheets Vught
