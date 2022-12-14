@@ -24,7 +24,8 @@ Uitgangspunt voor namen binnen het Harmonisator-concept (schema's, termen, entit
 
 ## Voorzieningen demo omgeving
 
-Op www.ccoverheid.nl/demo/voorzieningen staan een aantal componenten voor de voorzieningen-toepassing. Het zijn kopieën van de databases in de ontwikkelomgeving. De structuur en inhoud kan/zal - zonder aankondiging vooraf - geregeld worden gewijzigd. 
+Op www.ccoverheid.nl/demo/voorzieningen staat een demo-omgeving voor de voorzieningen-toepassing. Deze Scriptcase- applicatie gebruikt een kopie van de database in de ontwikkelomgeving. De structuur en inhoud kan/zal - zonder aankondiging vooraf - geregeld worden gewijzigd. Je kan dus om te testen wel records aanmaken of wijzigen maar deze worden niet definitief bewaard. 
+Met de API kan je dan al deze gegevens ophalen, toevoegen of wijzigen.
 
 ### MySQL database
 
@@ -37,7 +38,12 @@ Op www.ccoverheid.nl/demo/voorzieningen staan een aantal componenten voor de voo
 
 De database kan alleen via de API en het Scriptcase demoprogramma worden benaderd. 
 
-De structuur is te vinden in /files/ MySQLCreateInsertFaciltiyAndCOoperationTables.sql en MySQLCreateInsertHarmonisatorTables.sql 
+De structuur is te vinden in /files/
+
+- MySQLCreateInsertFaciltiyAndCOoperationTables.sql
+- MySQLCreateInsertHarmonisatorTables.sql
+- MySQLViewFacility.sql
+- MySQLViewTerm.sql
 
 ### API
 
@@ -49,16 +55,24 @@ Voorbeelden:
 
 ```
 GET /records/facility/1
-GET /records/facility?filter=fac_target_group_code
+GET /records/facility?filter=fac_label,cs,zwemmen
+GET /records/facility?filter=fac_target_group_code,eq,kind
 GET /records/facility_view
 GET /records/facility_view?filter=g_name,cs,jeugdfonds
 
-GET /records/term_view?include=term_label,term_definition
+GET /records/term_view_voorzieningen?include=term_label,term_definition
+
+POST /records/facility
+{
+    "fac_label": "Bijles, huiswerkbegeleiding",
+    "fac_description": "Extra les op specifieke schoolvakken en/of begeleiding bij het maken van huiswerk",
+    "fac_target_group_code": "Kind"
+}
 
 ```
 
 ## Demo-applicatie
 
-Een demo-applicatie is gemaakt met Scriptcase. 
+De demo-applicatie is gemaakt met [Scriptcase](https://www.scriptcase.net/). Dit is een PHP-code generator, vooral nuttig voor prototyping en kleine low cost applicaties.
 
 https://ccoverheid.nl/demo/voorzieningen/menu.
